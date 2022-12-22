@@ -10,18 +10,19 @@
 <a href="#xception">Loading the Xception model</a>
 <a href="#clothes_model">Building the full model</a>
 <a href="#plots">Plotting the accuracy and loss histories</a>
+<a href="#evaluate">Evaluating the model</a>
 </p>
 
-<a id='goal></a>
+<a id='goal'></a>
 ## Goal
 The goal of this project is tuo use Transfer Learning to classify clothes.
 
 <a id='over'></a>
 ## Overview and Data
 The data consisted in 3781 images distrbuted as follows:<br>
-- train: Images for training a model (3,068 images)
-- validation: Images for validating (341 image)
-- test: Images for testing (372 images)
+-  train: Images for training a model (3,068 images)
+-  validation: Images for validating (341 image)
+-  test: Images for testing (372 images)
 
 I used `keras` to build a fully-connected neural network based on deep learing model `Xception` using Transfer Learning.
 <a id='aug'></a>
@@ -109,7 +110,15 @@ history = model.fit(train_ds,epochs=12,validation_data=val_ds)
 <p align="center">
   <img src="images/accuracy.png" width ='400'>
 </p>    
-
-
+The accuracy on the training set is increasing over the course of training, reaching a value of around 92% by the end of the training process. The accuracy on the validation set is also generally increasing, although there is some fluctuation, with a final value of around 89%.The model is not overfiting. To be sure we evaluate the model on the new data
+<br>
+<a id="#evaluate"></a>
+## Evaluating the model
+```
+model.evaluate(test_ds)
+```
+<p align="center">
+  <img src="images/evaluate.png" width ='400'>
+</p> 
                                  
 <br> 
