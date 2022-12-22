@@ -2,17 +2,17 @@
 **The code is available [here](https://nbviewer.org/github/mahahajmeftah/clothes-Calssification/blob/main/notebook/Clothes_classification.ipynb) or by clicking on the [view code] link above.**
 
 <p>
-<a align ='center'></a>
-<a href="#goal">Goal</a>
-<a href="#over"> Overviwew and Data</a>
-<a href="#augm"> Preprocessing and Data Augmentation</a>
-<a href="#small datasets"> Problems with small datasets </a>
-<a href="#xception">Loading the Xception model</a>
-<a href="#clothes_model">Building the full model</a>
-<a href="#plots">Plotting the accuracy and loss histories</a>
-<a href="#evaluate">Evaluating the model</a>
-<a href="#conclusion">Conclusion</a>
-<a href="#todo">To Do</a>
+<a align ='center'></a> •
+<a href="#goal">Goal</a> •
+<a href="#over"> Overviwew and Data</a> •
+<a href="#augm"> Preprocessing and Data Augmentation</a> •
+<a href="#small datasets"> Problems with small datasets </a> •
+<a href="#xception">Loading the Xception model</a> •
+<a href="#clothes_model">Building the full model</a> •
+<a href="#plots">Plotting the accuracy and loss histories</a> •
+<a href="#evaluate">Evaluating the model</a> •
+<a href="#conclusion">Conclusion</a> •
+<a href="#todo">To Do</a> •
 
 </p>
 
