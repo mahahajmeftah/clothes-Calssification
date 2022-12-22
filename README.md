@@ -11,6 +11,7 @@
 <a href="#clothes_model">Building the full model</a>
 <a href="#plots">Plotting the accuracy and loss histories</a>
 <a href="#evaluate">Evaluating the model</a>
+<a href="#conclusin">Conclusion</a>
 </p>
 
 <a id='goal'></a>
@@ -112,13 +113,16 @@ history = model.fit(train_ds,epochs=12,validation_data=val_ds)
 </p>    
 The accuracy on the training set is increasing over the course of training, reaching a value of around 92% by the end of the training process. The accuracy on the validation set is also generally increasing, although there is some fluctuation, with a final value of around 89%.The model is not overfiting. To be sure we evaluate the model on the new data
 <br>
-<a id="#evaluate"></a>
+<a id="evaluate"></a>
 ## Evaluating the model
 ```
 model.evaluate(test_ds)
 ```
 <p align="center">
-  <img src="images/evaluate.png" width ='400'>
+  <img src="images/evaluate.png" height ='200' width='200'>
 </p> 
-                                 
+The model is not overfitting because the accuracy of the test dataset 90% is higher than the accuracy of the validation dataset 89%. 
 <br> 
+<a id="conclusin"></a>
+## Conclusions
+
