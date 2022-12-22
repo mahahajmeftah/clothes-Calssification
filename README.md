@@ -102,3 +102,14 @@ model.compile(
 )
 history = model.fit(train_ds,epochs=12,validation_data=val_ds)
 ```
+<a id='#plots'></a>
+## Plotting the accuracy and loss histories
+<br>
+
+<p align="center">
+  <img src="images/accuracy.png" width ='400'>
+</p>    
+
+
+                                 
+<br> 
