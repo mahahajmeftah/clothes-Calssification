@@ -1,5 +1,6 @@
-## Clothes Classification with Convolution Neural Nets [[view code]](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/painters-identification/notebooks/capstone-models-final-model-building.ipynb)
-**The code is available [here](link)
+## Clothes Classification with Convolution Neural Nets [[view code]](https://nbviewer.org/github/mahahajmeftah/clothes-Calssification/blob/main/notebook/Clothes_classification.ipynb)
+**The code is available [here](https://nbviewer.org/github/mahahajmeftah/clothes-Calssification/blob/main/notebook/Clothes_classification.ipynb)or by clicking on the [view code] link above.**
+
 <p>
 <a align ='center'></a>
 <a href="#goal">Goal</a>
