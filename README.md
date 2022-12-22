@@ -26,7 +26,7 @@ The data consisted in 3781 images distrbuted as follows:<br>
 I used `keras` to build a fully-connected neural network based on deep learing model `Xception` using Transfer Learning.
 <a id='aug'></a>
 ### Preprocessing and Data Augmentation
-  -Image resizing to 299*299
+  - Image resizing to 299*299
   - Data augmentation is useful when we have small dataset to generate more data. The Transfomation I did it are :
   	- shear
 	- zoom
