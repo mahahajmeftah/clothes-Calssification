@@ -11,7 +11,9 @@
 <a href="#clothes_model">Building the full model</a>
 <a href="#plots">Plotting the accuracy and loss histories</a>
 <a href="#evaluate">Evaluating the model</a>
-<a href="#conclusin">Conclusion</a>
+<a href="#conclusion">Conclusion</a>
+<a href="#todo">To Do</a>
+
 </p>
 
 <a id='goal'></a>
@@ -125,4 +127,10 @@ The model is not overfitting because the accuracy of the test dataset 90% is hig
 
 <a id="conclusion"></a>
 ## Conclusions
+I built a model to classify clothes using Xception model wiht accuracy of 90%.
+
+<a href="#todo"></a>
+## To Do
+- [ ] Confusion matrix analysis
+- [ ] Precion and Recall 
 
