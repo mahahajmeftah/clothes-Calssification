@@ -9,7 +9,7 @@
 <a href="#small datasets"> Problems with small datasets </a> •
 <a href="#xception">Loading the Xception model</a> •
 <a href="#clothes_model">Building the full model</a> •
-<a href="#plots">Plotting the accuracy and loss histories</a> •
+<a href="#plots">Plotting the accuracy history</a> •
 <a href="#evaluate">Evaluating the model</a> •
 <a href="#conclusion">Conclusion</a> •
 <a href="#todo">To Do</a> •
@@ -28,8 +28,8 @@ The data consisted in 3781 images distrbuted as follows:<br>
 -  test: Images for testing (372 images)
 
 I used `keras` to build a fully-connected neural network based on deep learing model `Xception` using Transfer Learning.
-<a id='aug'></a>
-### Preprocessing and Data Augmentation
+<a id='augm'></a>
+## Preprocessing and Data Augmentation
   - Image resizing to 299*299
   - Data augmentation is useful when we have small dataset to generate more data. The Transfomation I did it are :
   	- shear
@@ -50,7 +50,7 @@ train_ds = train_gen.flow_from_directory(
 )
 ```
 
-<a id='Small datasets'></a>
+<a id='small datasets'></a>
 ## Problems with small datasets
 Given the small dataset we have it's difficult to build a model that make predictions with high accuracy.We have a risk of overfitting.
 
@@ -106,8 +106,8 @@ model.compile(
 )
 history = model.fit(train_ds,epochs=12,validation_data=val_ds)
 ```
-<a id='#plots'></a>
-## Plotting the accuracy and loss histories
+<a id='plots'></a>
+## Plotting the accuracy history
 <br>
 
 <p align="center">
@@ -129,7 +129,7 @@ The model is not overfitting because the accuracy of the test dataset 90% is hig
 ## Conclusions
 I built a model to classify clothes using Xception model wiht accuracy of 90%.
 
-<a href="#todo"></a>
+<a id="todo"></a>
 ## To Do
 - [ ] Confusion matrix analysis
 - [ ] Precion and Recall 
